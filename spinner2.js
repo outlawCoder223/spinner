@@ -5,7 +5,7 @@ const spinner = function() {
     setTimeout(() => {
       process.stdout.write(`\r${char}`);
     }, timer);
-    timer += 200
+    timer += 200;
   }
 };
-spinner()
+spinner();
